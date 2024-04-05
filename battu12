@@ -1,0 +1,7 @@
+echo "# battu" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/varun0465/battu.git
+git push -u origin main
